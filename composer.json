@@ -11,6 +11,7 @@
     "squizlabs/php_codesniffer": "3.*"
   },
   "scripts": {
+    "ci:test":[],
     "test": "phpunit --testsuite alltests",
     "psalm": "psalm",
     "phpstan": "phpstan analyse -c phpstan.neon",
